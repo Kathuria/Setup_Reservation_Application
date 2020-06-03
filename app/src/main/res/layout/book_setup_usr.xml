@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="vertical"
+      android:background="@drawable/user" >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="240dp"
+      android:orientation="vertical" >
+
+      <TextView
+          android:id="@+id/textViewb1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:text="Setup Booking"
+          android:textColor="#EF871F"
+          android:textSize="24sp"
+          android:textStyle="bold"
+          android:typeface="serif"
+          tools:ignore="HardcodedText" />
+<requestFocus />
+      <TextView
+          android:id="@+id/textViewb2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="Choose Setup"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+   
+      <Spinner
+          android:id="@+id/BookingSpinnerU"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"/>
+
+       <TextView
+          android:id="@+id/status"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:background="#C0C0C0"
+          android:text=""
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          tools:ignore="HardcodedText" />
+
+      <TextView
+          android:id="@+id/maNameU"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="Manager"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+
+      <EditText
+          android:id="@+id/mNameU"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          tools:ignore="TextFields,LabelFor" />
+
+      <TextView
+          android:id="@+id/teNameU"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="Team"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+
+      <EditText
+          android:id="@+id/tNameU"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:text="SOM"
+          tools:ignore="TextFields,LabelFor,HardcodedText" />
+      <TextView		
+          android:id="@+id/detailsU"		
+          android:layout_width="wrap_content"		
+          android:layout_height="wrap_content"		
+          android:layout_marginTop="15dp"		
+          android:text="Other Requirements"		
+          android:textAppearance="?android:attr/textAppearanceMedium"		
+          android:textStyle="bold"		
+          tools:ignore="HardcodedText" />		
+      <EditText		
+          android:id="@+id/otherDetailsU"		
+          android:layout_width="match_parent"		
+          android:layout_height="wrap_content"		
+          android:ems="10"		
+          android:lines="2"		
+          android:hint="Write Here..."		
+          android:inputType="textMultiLine"		
+          tools:ignore="HardcodedText" />
+      
+     <TextView
+          android:id="@+id/textViewb32"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="Choose Booking Type"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+     <Spinner
+          android:id="@+id/BookingTypeSpinnerU"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:entries="@array/SelectType" />
+      
+      
+      <TextView
+          android:id="@+id/cdtvU"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="Choose Date"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+   
+       <RelativeLayout
+          android:id="@+id/widget28U"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:orientation="vertical" >
+           <TextView
+          android:id="@+id/textfromU"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="From"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+
+          <EditText
+              android:id="@+id/fromdateU"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_toRightOf="@+id/textfromU"
+              android:focusableInTouchMode="false"
+              android:editable="false"
+              android:hint="Tap Here"
+              android:inputType="none"
+              tools:ignore="HardcodedText,Deprecated" />
+
+      <TextView
+          android:id="@+id/texttoU"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="To"
+          android:layout_toLeftOf="@+id/todateU"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+       <EditText
+        android:id="@+id/todateU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:focusableInTouchMode="false"
+        android:editable="false" 
+        android:inputType="none"
+        android:hint="Tap Here"
+        tools:ignore="HardcodedText,Deprecated" />
+       
+      
+        </RelativeLayout>
+        
+        <TextView
+          android:id="@+id/totalU"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:background="#C0C0C0"
+          android:text=""
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          tools:ignore="HardcodedText" />
+     <TextView
+          android:id="@+id/ctstvU"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="Choose Time Slot"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+      <Spinner
+          android:id="@+id/TimeSlotSpinnerU"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:entries="@array/SelectTimeSlot" />
+       
+      <TextView
+          android:id="@+id/availabilityU"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:background="#C0C0C0"
+          android:layout_marginTop="5dp"
+          android:text=""
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          tools:ignore="HardcodedText" />
+      
+<!--  
+
+ 
+ <TextView
+          android:id="@+id/totaldays"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/textfrom"
+          android:background="#C0C0C0"
+          android:layout_marginTop="5dp"
+          android:text=""
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          tools:ignore="HardcodedText" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<RelativeLayout
+          android:id="@+id/widget28U"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:orientation="vertical" >
+      <TextView
+          android:id="@+id/textViewb4U"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="From "
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+
+      <TextView
+          android:id="@+id/textViewb5U"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="To"
+          android:layout_alignParentRight="true"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+ </RelativeLayout>
+      <RelativeLayout
+          android:id="@+id/widget29U"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:orientation="vertical" >
+
+          <TextView
+              android:id="@+id/lblDateAndTimeU"
+              android:layout_width="100dp"
+              android:layout_height="30dp"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:background="#D1D1D1"
+              android:textStyle="bold" />
+          
+          <TextView
+              android:id="@+id/lblDateAndTime1U"
+              android:layout_width="100dp"
+              android:layout_height="30dp"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentTop="true"
+              android:background="#D1D1D1"
+              android:textStyle="bold" />
+
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:id="@+id/widget29U"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:orientation="vertical" >
+
+          <Button
+              android:id="@+id/btnDateU"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:text="Pick Date"
+              tools:ignore="HardcodedText" />
+
+          <Button
+              android:id="@+id/btnDate1U"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentTop="true"
+              android:text="Pick Date"
+              tools:ignore="HardcodedText" />
+
+      </RelativeLayout>
+
+
+      
+ <RelativeLayout
+          android:id="@+id/widget31U"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:orientation="vertical" >
+
+</RelativeLayout> -->
+
+       <RelativeLayout
+          android:id="@+id/buttonss"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:orientation="vertical" >
+
+      <Button
+          android:id="@+id/resetU"
+          android:layout_width="100dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:layout_marginLeft="15dp"
+          android:background="#EF871F"
+          android:text="Reset"
+          android:textColor="#FFFFFF"
+          tools:ignore="HardcodedText" />
+
+      <Button
+          android:id="@+id/booksetupbuttonU"
+          android:layout_width="100dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:layout_marginRight="15dp"
+          android:background="#EF871F"
+          android:text="Submit"
+          android:textColor="#FFFFFF"
+          tools:ignore="HardcodedText" />
+
+      </RelativeLayout>
+  </LinearLayout>
+
+    </ScrollView>

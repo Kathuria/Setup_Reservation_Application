@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/user">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+  <EditText
+      android:id="@+id/cardname"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/Spinner"
+      android:ems="10"
+        android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+      android:hint="Name of card"
+      tools:ignore="HardcodedText" 
+      android:layout_marginTop="11dp"/>
+
+  <EditText
+      android:id="@+id/Serial_no"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/product_code"
+      android:layout_alignParentLeft="true"
+      android:layout_marginTop="11dp"
+      android:ems="10"
+        android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+      android:hint="Serial number"
+      tools:ignore="HardcodedText" />
+
+  <TextView
+      android:id="@+id/textView21"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginTop="24dp"
+      android:text="Mark Hardware Faulty"
+ 	  android:textColor="#EF871F"
+ 	  android:textSize="24sp"
+      android:textStyle="bold"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      tools:ignore="HardcodedText" />
+
+  <EditText
+      android:id="@+id/product_code"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/cardname"
+      android:layout_marginTop="11dp"
+      android:ems="10"
+        android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+      android:hint="product code"
+      tools:ignore="HardcodedText" />
+
+  <EditText
+      android:id="@+id/problem_description"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/Version"
+      android:layout_marginTop="11dp"
+      android:ems="10"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:hint="problem description"
+      tools:ignore="HardcodedText" />
+
+  <EditText
+      android:id="@+id/Version"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/Serial_no"
+      android:layout_marginTop="11dp"
+      android:ems="10"
+        android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+      android:hint="Version"
+      tools:ignore="HardcodedText" />
+
+  <Spinner
+      android:id="@+id/Spinner"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/textView21"
+      android:entries="@array/Type_of_card" 
+        android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+	  android:layout_marginTop="21dp"	>
+      <requestFocus /> 
+      </Spinner>
+
+   <Spinner
+          android:id="@+id/Used_In_Setup"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+      	  android:layout_below="@+id/problem_description"
+     	  android:layout_marginTop="11dp"
+     	  android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"/>
+
+   <Button
+       android:id="@+id/mark_it"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignRight="@+id/textView21"
+       android:layout_below="@+id/Used_In_Setup"
+       android:layout_marginTop="19dp"
+       android:text="Mark it"
+       android:background="#EF871F"
+       android:textColor="#FFFFFF"
+       tools:ignore="HardcodedText" />
+
+   <Button
+       android:id="@+id/reset_fault"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/mark_it"
+       android:layout_alignBottom="@+id/mark_it"
+       android:layout_alignLeft="@+id/textView21"
+       android:text="Reset" 
+       android:background="#EF871F"
+       android:textColor="#FFFFFF"
+       tools:ignore="HardcodedText"/>
+
+</RelativeLayout>
+</ScrollView>

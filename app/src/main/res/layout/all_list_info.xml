@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="6dip" xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="ID: "
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+         tools:ignore="HardcodedText"/>
+ 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text="Name: "
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+         tools:ignore="HardcodedText"/>
+    
+ 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:text="Status: "
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+         tools:ignore="HardcodedText"/>
+ 
+   
+ 
+    <TextView
+        android:id="@+id/statusAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="TextView"
+         tools:ignore="HardcodedText" />
+ 
+ 
+    <TextView
+        android:id="@+id/nameAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="TextView" 
+         tools:ignore="HardcodedText"/>
+ 
+    <TextView
+        android:id="@+id/sidAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/nameAll"
+        android:text="TextView"
+        tools:ignore="HardcodedText" />
+
+ <!--    <Button
+        android:id="@+id/detailButtonAll"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/statusAll"
+        android:layout_alignBottom="@+id/statusAll"   
+        android:layout_alignParentRight="true"   
+        android:focusable="false"    
+        android:text="Details" /> -->
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="6dip" >
+    <TextView
+        android:id="@+id/textnameEUL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textfromEUL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textnameEUL"
+        android:text="From: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/texttoEUL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textfromEUL"
+        android:layout_below="@+id/textfromEUL"
+        android:text="To: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textslotEUL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/texttoEUL"
+        android:layout_below="@+id/texttoEUL"
+        android:text="Slot: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/nameDBEUL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textfromEUL"
+        android:layout_marginLeft="19dp"
+        android:layout_toRightOf="@+id/textnameEUL"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/slotDBEUL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textslotEUL"
+        android:layout_alignLeft="@+id/nameDBEUL"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/fromDBEUL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/texttoEUL"
+        android:layout_alignLeft="@+id/nameDBEUL"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/toDBEUL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textslotEUL"
+        android:layout_alignLeft="@+id/slotDBEUL"
+        android:text="TextView" />
+ 
+</RelativeLayout>

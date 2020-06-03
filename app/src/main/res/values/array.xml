@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="allsetups">
+        <item>@string/feedbacktype0</item>
+        <item>@string/feedbacktype1</item>
+        <item>@string/feedbacktype2</item>
+        <item>@string/feedbacktype3</item>
+    </string-array>
+    
+     <string-array name="racks">
+        <item>@string/feedbacktype0</item>
+        <item>@string/feedbacktype4</item>
+        <item>@string/feedbacktype5</item>
+        <item>@string/feedbacktype6</item>
+    </string-array>
+    
+     <string-array name="userset">
+        <item>@string/feedbacktype0</item> 
+        <item>@string/feedbacktype7</item>
+        <item>@string/feedbacktype8</item>
+        <item>@string/feedbacktype9</item>
+    </string-array>
+         <string-array name="freesetups">
+        <item>@string/feedbacktype0</item>     
+        <item>@string/feedbacktype10</item>
+        <item>@string/feedbacktype11</item>
+        <item>@string/feedbacktype12</item>
+        <item>@string/feedbacktype13</item>
+        <item>@string/feedbacktype14</item>
+        <item>@string/feedbacktype15</item>
+        <item>@string/feedbacktype16</item>
+        <item>@string/feedbacktype17</item>
+        <item>@string/feedbacktype18</item>
+    </string-array>
+     <string-array name="Type_of_card">
+          <item>@string/feedbacktype0</item> 
+         <item>@string/feedbacktype20</item>
+        <item>@string/feedbacktype21</item>
+        <item>@string/feedbacktype22</item>
+        <item>@string/feedbacktype23</item>
+        <item>@string/feedbacktype24</item>
+        <item>@string/feedbacktype25</item>
+        <item>@string/feedbacktype26</item>
+        <item>@string/feedbacktype27</item>
+       
+    </string-array>
+  <string-array name="Type_of_Activity">
+          <item>@string/feedbacktype28a</item> 
+         <item>@string/feedbacktype28</item>
+        <item>@string/feedbacktype29</item>
+
+       
+    </string-array>
+      <string-array name="Catagory_Assigned">
+      <item>@string/feedbacktype30a</item> 
+         <item>@string/feedbacktype30</item>
+        <item>@string/feedbacktype31</item>
+<item>@string/feedbacktype32</item>
+       
+    </string-array>
+     <string-array name="Request_catagory">
+          <item>@string/feedbacktype33a</item> 
+         <item>@string/feedbacktype33</item>
+        <item>@string/feedbacktype34</item>
+        <item>@string/feedbacktype35</item>
+        <item>@string/feedbacktype36</item>
+        <item>@string/feedbacktype37</item>
+        <item>@string/feedbacktype38</item>
+        <item>@string/feedbacktype39</item>
+        <item>@string/feedbacktype40</item>
+       <item>@string/feedbacktype41</item> 
+         <item>@string/feedbacktype42</item>
+        <item>@string/feedbacktype43</item>
+        <item>@string/feedbacktype44</item>
+        <item>@string/feedbacktype45</item>
+        <item>@string/feedbacktype46</item>
+        <item>@string/feedbacktype47</item>
+        <item>@string/feedbacktype48</item>
+        <item>@string/feedbacktype49</item>
+        <item>@string/feedbacktype50</item>
+       <item>@string/feedbacktype51</item> 
+         <item>@string/feedbacktype52</item>
+        <item>@string/feedbacktype53</item>
+        <item>@string/feedbacktype54</item>
+        <item>@string/feedbacktype55</item>
+        <item>@string/feedbacktype56</item>
+        <item>@string/feedbacktype57</item>
+        <item>@string/feedbacktype58</item>
+       
+    </string-array>
+    
+      <string-array name="Mark_setup_status">
+      <item>@string/status1</item> 
+         <item>@string/status2</item>
+        <item>@string/status3</item>
+       
+    </string-array>
+    
+       <string-array name="TimeSlot">
+         <item>@string/slot1</item> 
+         <item>@string/slot2</item>
+         <item>@string/slot3</item>
+         <item>@string/slot4</item>
+         <item>@string/slot5</item>
+      </string-array>
+      
+      <string-array name="SelectTimeSlot">
+         <item>@string/selecttime</item>
+      </string-array>
+      
+      <string-array name="SelectType">
+         <item>@string/type1</item>
+         <item>@string/type2</item>
+      </string-array>
+      
+      
+</resources>

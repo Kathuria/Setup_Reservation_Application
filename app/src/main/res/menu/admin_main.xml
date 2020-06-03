@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="avi.aricent_ssr.adm_land" >
+
+    <item
+        android:id="@+id/action_name_ad"
+        android:orderInCategory="100"
+        android:title=""
+        android:showAsAction="always"
+  	    android:actionViewClass="android.widget.TextView"
+        tools:ignore="HardcodedText"/>
+    
+    <item
+        android:id="@+id/action_pwd_ad"
+        android:orderInCategory="100"
+        android:title="Change Password"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText"/>
+    
+    <item
+        android:id="@+id/action_rep_ad"
+        android:orderInCategory="100"
+        android:title="Check Reports"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText"/>
+    
+        <item
+        android:id="@+id/action_policy_ad"
+        android:orderInCategory="100"
+        android:title="Policies"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText"/>
+    
+    <item
+        android:id="@+id/action_about_ad"
+        android:orderInCategory="100"
+        android:title="About Us"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText"/>
+    
+    <item
+        android:id="@+id/action_log_ad"
+        android:orderInCategory="100"
+        android:title="Log Out"
+        app:showAsAction="never" 
+        tools:ignore="HardcodedText"/>
+
+</menu>

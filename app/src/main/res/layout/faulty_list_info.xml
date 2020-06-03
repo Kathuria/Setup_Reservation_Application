@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="6dip" xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Card: "
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        tools:ignore="HardcodedText"/>
+ 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text="Name: "
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        tools:ignore="HardcodedText"/>
+ 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:text="Status: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:ignore="HardcodedText" />
+    
+    <TextView
+        android:id="@+id/fault3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="TextView" 
+        tools:ignore="HardcodedText"/>
+ 
+    <TextView
+        android:id="@+id/fault2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="TextView"
+        tools:ignore="HardcodedText" />
+ 
+    <TextView
+        android:id="@+id/fault1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/fault2"
+        android:text="TextView" 
+        tools:ignore="HardcodedText"/>
+    
+   <!-- 
+    <Button
+        android:id="@+id/detailButtonAV"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/statusAV"
+        android:layout_alignBottom="@+id/statusAV"
+        android:layout_toLeftOf="@+id/bookButtonAV"
+        android:text="Details" />
+
+    <Button
+        android:id="@+id/bookButtonAV"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/detailButtonAV"
+        android:layout_alignBottom="@+id/detailButtonAV"
+        android:layout_alignParentRight="true"
+        android:text="Book" />
+    
+-->
+</RelativeLayout>

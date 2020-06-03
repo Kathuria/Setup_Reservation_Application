@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="@drawable/user">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="Change Password"
+ 	    android:textColor="#EF871F"
+ 	    android:textSize="26sp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:maxLength="20"
+        android:hint="Enter Old Password"
+        android:inputType="textPassword"
+        tools:ignore="HardcodedText" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="31dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:maxLength="20"
+        android:hint="Enter New Password"
+        android:inputType="textPassword" 
+        tools:ignore="HardcodedText"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:maxLength="20"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" 
+        tools:ignore="HardcodedText"/>
+
+    <Button
+        android:id="@+id/buttonc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText3"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="51dp"
+        android:text="Change it"
+        android:background="#EF871F"
+        android:textColor="#FFFFFF"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/reset_chg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonc1"
+        android:layout_alignBottom="@+id/buttonc1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
+        android:text="Reset"
+        android:background="#EF871F"
+        android:textColor="#FFFFFF"
+		tools:ignore="HardcodedText"/>
+
+</RelativeLayout>

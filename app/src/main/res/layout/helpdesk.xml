@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+     android:background="@drawable/user">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="547dp" >
+
+  <Spinner
+      android:id="@+id/Catagory_Assigned"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/Type_of_Activity"
+      android:layout_alignParentLeft="true"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginTop="14dp"
+      tools:ignore="HardcodedText" 
+      android:hint="Select Catagory"
+      android:entries="@array/Catagory_Assigned" />
+ 
+
+  <EditText
+      android:id="@+id/Network_Element"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/Request_catagory"
+      android:ems="10"
+      android:layout_marginTop="14dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:hint="Network Element"
+      tools:ignore="HardcodedText" />
+
+     
+
+
+  <EditText
+      android:id="@+id/Activity_desc"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/Network_Element"
+      android:layout_marginTop="14dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:ems="10"
+      android:hint="Activity description"
+      tools:ignore="HardcodedText" />
+
+  <Spinner
+      android:id="@+id/Type_of_Activity"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/Helpdesk"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginTop="34dp"
+      android:hint="Select type of activity"
+      tools:ignore="HardcodedText" 
+      android:entries="@array/Type_of_Activity" />
+<requestFocus />
+  <TextView
+      android:id="@+id/Helpdesk"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginTop="14dp"
+      android:text="Helpdesk"
+ 	  android:textColor="#EF871F"
+ 	  android:textSize="30sp"
+      android:textStyle="bold"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      tools:ignore="HardcodedText" />
+
+  <Spinner
+      android:id="@+id/Request_catagory"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/Catagory_Assigned"
+      android:layout_marginTop="14dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      tools:ignore="HardcodedText" 
+      android:hint="Select Request for catagory"
+      android:entries="@array/Request_catagory" />
+
+ <Button
+     android:id="@+id/reset_help"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignBaseline="@+id/buttonhelp"
+     android:layout_alignBottom="@+id/buttonhelp"
+     android:layout_alignLeft="@+id/Activity_desc"
+     android:layout_marginLeft="30dp"
+     android:text="Reset"
+     android:background="#EF871F"
+     android:textColor="#FFFFFF"
+     tools:ignore="HardcodedText" />
+
+ <Button
+     android:id="@+id/buttonhelp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignRight="@+id/Activity_desc"
+     android:layout_below="@+id/Activity_desc"
+     android:layout_marginRight="26dp"
+     android:layout_marginTop="43dp"
+     android:text="Submit"
+	 android:background="#EF871F"
+     android:textColor="#FFFFFF"
+     tools:ignore="HardcodedText" />
+
+</RelativeLayout>
+</ScrollView>

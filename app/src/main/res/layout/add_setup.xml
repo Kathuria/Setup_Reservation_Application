@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/admin_back" 
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <EditText
+        android:id="@+id/Manufacturer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+          android:layout_below="@+id/Purchase"
+        android:ems="10"
+         android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+           android:layout_marginTop="12dp"	
+        android:hint="Manufacturer"
+       tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/Purchase"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Acq_Dat"
+        android:layout_alignParentLeft="true"
+    android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+        android:ems="10"
+          android:layout_marginTop="12dp"	
+        android:hint="Purchased/Leased"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/other"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Owner"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+         android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+        android:hint="Other Details"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/Sr_no"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Name"
+         android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Sr no."
+         android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/Owner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Manufacturer"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Owner"
+         android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/Acq_Dat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Sr_no"
+        android:ems="10"
+         android:layout_marginTop="12dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+        android:hint="Acquired Date"
+        tools:ignore="HardcodedText" />
+
+<TextView
+    android:id="@+id/Add_Setup_Details"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="14dp"
+    android:text="Add Setup Details"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    tools:ignore="HardcodedText" />
+
+<EditText
+    android:id="@+id/Name"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/Add_Setup_Details"
+    android:layout_marginTop="16dp"
+    android:ems="10"
+      android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+    android:hint="Name"
+    tools:ignore="HardcodedText" >
+
+    <requestFocus />
+</EditText>
+
+<Button
+    android:id="@+id/subbtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignRight="@+id/other"
+    android:layout_marginBottom="14dp"
+    android:layout_marginRight="20dp"
+    android:text="Submit"
+    tools:ignore="HardcodedText" />
+
+<Button
+    android:id="@+id/reset_add"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/subbtn"
+    android:layout_alignBottom="@+id/subbtn"
+    android:layout_alignLeft="@+id/other"
+    android:layout_marginLeft="26dp"
+    android:text="Reset" 
+    tools:ignore="HardcodedText"/>
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="6dip" xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/textnameEULA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textfromEULA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textnameEULA"
+        android:text="From: "
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/texttoEULA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textfromEULA"
+        android:layout_below="@+id/textfromEULA"
+        android:text="To: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textslotEULA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/texttoEULA"
+        android:layout_below="@+id/texttoEULA"
+        android:text="Slot: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/nameDBEULA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textfromEULA"
+        android:layout_marginLeft="19dp"
+        android:layout_toRightOf="@+id/textnameEULA"
+        android:text="TextView"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/slotDBEULA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textslotEULA"
+        android:layout_alignLeft="@+id/nameDBEULA"
+        android:text="TextView"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/fromDBEULA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/texttoEULA"
+        android:layout_alignLeft="@+id/nameDBEULA"
+        android:text="TextView"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/toDBEULA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textslotEULA"
+        android:layout_alignLeft="@+id/slotDBEULA"
+        android:text="TextView"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textempEULA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textslotEULA"
+        android:layout_below="@+id/textslotEULA"
+        android:text="Emp ID: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/empDBEULA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textempEULA"
+        android:layout_alignBottom="@+id/textempEULA"
+        android:layout_alignLeft="@+id/slotDBEULA"
+        android:text="TextView"
+        tools:ignore="HardcodedText" />
+ 
+</RelativeLayout>

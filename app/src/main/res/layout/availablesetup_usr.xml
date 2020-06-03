@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:background="@drawable/user">
+
+  <TextView
+      android:id="@+id/textView1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Tap for booking and details"
+      android:textSize="25sp"
+      tools:ignore="HardcodedText" />
+  <TextView
+		    android:id="@+id/tvasU"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="20sp"
+		    android:layout_marginTop="16dp"
+		    android:text=""
+		    tools:ignore="HardcodedText" />
+  
+<ListView 
+    android:id="@+id/availSetupListViewU" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" />
+ 
+</LinearLayout>

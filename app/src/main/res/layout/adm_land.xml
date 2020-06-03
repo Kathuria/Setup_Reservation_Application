@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/admin_back"
+    android:scrollbars="vertical"
+    tools:context="com.example.aricent_ssr.MainActivity$PlaceholderFragment" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="474dp"
+        android:orientation="vertical" >
+
+        <ExpandableListView
+            android:id="@+id/lvExp"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="150dp" >
+        </ExpandableListView>
+
+        <ImageButton
+            android:id="@+id/imageButtonad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:src="@drawable/cooltext118616563431424"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textViewfm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageButtonad2"
+            android:layout_marginTop="17dp"
+            android:text="SOM Setups"
+            android:textColor="#6F8197"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            tools:ignore="HardcodedText" />
+        
+    </RelativeLayout>
+
+</ScrollView>

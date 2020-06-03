@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/admin_back" xmlns:tools="http://schemas.android.com/tools">
+    
+    <TextView
+        android:id="@+id/textViewb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Booked Setup List"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        tools:ignore="HardcodedText" />
+
+		<TextView
+		    android:id="@+id/tvblA"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="20sp"
+		    android:layout_marginTop="16dp"
+		    android:text="Tap on item to see details"
+		    tools:ignore="HardcodedText" />
+<ListView 
+    android:id="@+id/BookedSetupListViewA" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" />
+
+</LinearLayout>

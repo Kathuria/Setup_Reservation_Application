@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     xmlns:tools="http://schemas.android.com/tools"
+      android:background="@drawable/user">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="FeedBack Form"
+        android:textColor="#EF871F"
+ 	    android:textSize="28sp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="HardcodedText" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp" >
+            <requestFocus />
+</RatingBar>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBar1"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/userfeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Write Here........"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonfeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ratingBar1"
+        android:layout_below="@+id/userfeed"
+        android:layout_marginTop="69dp"
+        android:background="#EF871F"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/reset_feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonfeed"
+        android:layout_alignBottom="@+id/buttonfeed"
+        android:layout_alignLeft="@+id/userfeed"
+        android:background="#EF871F"
+        android:text="Reset"
+        android:textColor="#FFFFFF"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

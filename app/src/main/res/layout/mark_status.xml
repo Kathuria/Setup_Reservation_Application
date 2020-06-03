@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/admin_back">
+
+            
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="10dp"
+                android:text="Mark Setup Status"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                tools:ignore="HardcodedText" />
+            
+            <Spinner
+                android:id="@+id/Spinfal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/markbutton"
+                    android:layout_below="@+id/Spinfal1"
+                    android:layout_marginTop="20dp"
+                    android:text="Status"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/status"
+                    android:layout_alignLeft="@+id/Spinfal1"
+                    android:text="Present Status :"
+                    tools:ignore="HardcodedText" />
+
+                
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/Spinfal2"
+                    android:layout_below="@+id/textView2"
+                    android:layout_marginTop="21dp"
+                    android:text="Set Status" 
+                    tools:ignore="HardcodedText" />
+
+                
+                <Spinner
+                    android:id="@+id/Spinfal2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView2"
+                    android:layout_below="@+id/status"
+                    android:layout_marginTop="40dp"
+                    android:entries="@array/Mark_setup_status" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/Spinfal1"
+                    android:layout_below="@+id/textView21"
+                    android:text="Select Setup"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/markbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Spinfal2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="14dp"
+                    android:text="Mark it"
+                    tools:ignore="HardcodedText" />
+
+</RelativeLayout>

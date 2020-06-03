@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aricent SSR</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_about">About Us</string>
+    <string name="feedbacktype0">Select</string>
+    <string name="feedbacktype1">Book Setup</string>
+    <string name="feedbacktype2">Cancel Booking</string>
+    <string name="feedbacktype3">Edit Booking</string>
+    <string name="feedbacktype4">Rack 1</string>
+	<string name="feedbacktype5">Rack 2</string>
+	<string name="feedbacktype6">Rack 3</string>
+    <string name="feedbacktype7">Add new user</string>
+    <string name="feedbacktype8">Delete user</string>
+    <string name="feedbacktype9">Edit User Details</string>
+    <string name="feedbacktype10">Setup 1</string>
+    <string name="feedbacktype11">Setup 2</string>
+    <string name="feedbacktype12">Setup 3</string>
+    <string name="feedbacktype13">Setup 4</string>
+    <string name="feedbacktype14">Setup 5</string>
+    <string name="feedbacktype15">Setup 6</string>
+    <string name="feedbacktype16">Setup 7</string>
+    <string name="feedbacktype17">Setup 8</string>
+    <string name="feedbacktype18">Setup 9</string>
+	<string name="Android">New User</string>
+    <string name="feedbacktype20">BOIA</string>
+    <string name="feedbacktype21">BB2X</string>
+    <string name="feedbacktype22">VIFA</string>
+    <string name="feedbacktype23">TRXX</string>
+    <string name="feedbacktype24">DVXX</string>
+    <string name="feedbacktype25">ESMA</string>
+	<string name="feedbacktype26">ESEA</string>
+    <string name="feedbacktype27">others..</string>
+    <string name="feedbacktype28a">Select type of activity</string>
+    <string name="feedbacktype28">Report fault</string>
+    <string name="feedbacktype29">Request for support</string>
+    <string name="feedbacktype30a">Select category</string>
+    <string name="feedbacktype30">Critical</string>
+    <string name="feedbacktype31">Major</string>
+    <string name="feedbacktype32">Minor</string>
+    <string name="feedbacktype33a">Select Request category</string>
+    <string name="feedbacktype33">BCF build related</string>
+    <string name="feedbacktype34">Star Packet</string>
+    <string name="feedbacktype35">Feature Parameter change</string>
+    <string name="feedbacktype36">BSC upgradation</string>
+	<string name="feedbacktype37">Core network activity(MGW/MSS upgrade)</string>
+	<string name="feedbacktype38">BTS HW trouble shoot</string>
+    <string name="feedbacktype39">Electification of BTS</string>
+    <string name="feedbacktype40">Elactrification of testing equipment</string>
+    <string name="feedbacktype41">PC SW related issues</string>
+    <string name="feedbacktype42">PC Hardware related issues</string>
+    <string name="feedbacktype43">Antivirus installation</string>
+    <string name="feedbacktype44">MCG related issue</string>
+    <string name="feedbacktype45">Test equipments provision</string>
+    <string name="feedbacktype46">Support to users</string>
+    <string name="feedbacktype47">ET patching</string>
+    <string name="feedbacktype48">Mobile and Laptop arrangements</string>
+    <string name="feedbacktype49">Sim related</string>
+    <string name="feedbacktype50">Netact related issues</string>
+    <string name="feedbacktype51">Test Equipment Arrangements and Problems</string>
+    <string name="feedbacktype52">Support to Users for configuration or network related problems</string>
+    <string name="feedbacktype53">BCF SW builds</string>
+    <string name="feedbacktype54">PC and LAN related</string>
+    <string name="feedbacktype55"> Arranging Cables and Hardware</string>
+	 <string name="feedbacktype56">Feature/Parameter Changes on network elements</string>
+ 	<string name="feedbacktype57">Arranging NetHawk PCs</string>
+    <string name="feedbacktype58">Preparation of Cables</string>
+    
+    <string name="status1">FREE</string>
+    <string name="status2">BOOKED</string>
+    <string name="status3">Under Maintanance</string>
+    <string name="cancel">Close</string>
+    <string name="Done">Done</string>
+    
+    <string name="slot1">FULL DAY</string>
+    <string name="slot2">8:30 AM to 11:30 AM</string>
+    <string name="slot3">11:30 AM to 2:30 PM</string>
+    <string name="slot4">2:30 PM to 5:30 PM</string>
+    <string name="slot5">5:30 PM to 8:30 AM</string>
+    
+    <string name="selecttime">Select Time Slot</string>
+    
+    <string name="type1">According to time</string>
+    <string name="type2">According to days</string>
+    
+</resources>

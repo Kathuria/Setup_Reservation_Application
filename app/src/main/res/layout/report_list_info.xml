@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="6dip" xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Email: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:ignore="HardcodedText" />
+    
+   <!-- 
+    <Button
+        android:id="@+id/detailButtonAV"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/statusAV"
+        android:layout_alignBottom="@+id/statusAV"
+        android:layout_toLeftOf="@+id/bookButtonAV"
+        android:text="Details" />
+
+    <Button
+        android:id="@+id/bookButtonAV"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/detailButtonAV"
+        android:layout_alignBottom="@+id/detailButtonAV"
+        android:layout_alignParentRight="true"
+        android:text="Book" />
+    
+-->
+
+    <TextView
+        android:id="@+id/fault2re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="TextView"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

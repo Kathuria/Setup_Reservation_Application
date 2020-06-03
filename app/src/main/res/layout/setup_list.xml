@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/admin_back"
+    android:scrollbars="vertical" >
+
+
+    <TextView
+        android:id="@+id/textViewn1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Setup Details"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        tools:ignore="HardcodedText" />
+
+   <Button
+       android:id="@+id/availbutton"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/bookedbutton"
+       android:layout_below="@+id/bookedbutton"
+       android:layout_marginTop="46dp"
+       android:text="Available Setups"
+       tools:ignore="HardcodedText" />
+
+   <Button
+       android:id="@+id/bookedbutton"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/textViewn1"
+       android:layout_below="@+id/textViewn1"
+       android:layout_marginTop="36dp"
+       android:text="Booked Setups"
+       tools:ignore="HardcodedText" />
+
+   <Button
+       android:id="@+id/allbutton"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/availbutton"
+       android:layout_below="@+id/availbutton"
+       android:layout_marginTop="46dp"
+       android:text="All Setups"
+       tools:ignore="HardcodedText" />
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/user_login" 
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_marginTop="100dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="Privacy Policy" 
+            tools:ignore="HardcodedText"/>
+        
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:text="We do not collect personally identifiable information about you (your name, telephone, address, e-mail, etc.) unless you provide us that information when you fill request some information from us. We do automatically collect certain non-personal information when you visit our app, such as the type of handset and android version you are using, and the domain name of your internet service provider (such as Comcast, AT&amp;T)."
+            tools:ignore="HardcodedText" />
+        
+     <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="Revisions to this Privacy Policy" 
+            tools:ignore="HardcodedText"/>
+        
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+       		android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:text="We reserve the right to amend this policy or any part of it from time to time. If we make any substantial changes in the way we use your personal information we will make that information available by posting a notice on this site or updating this policy. Please review the policy periodically for changes."
+            tools:ignore="HardcodedText" />
+        
+           <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="How to Contact Us" 
+            tools:ignore="HardcodedText"/>
+        
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"            
+            android:text="If you have any questions or concerns about this policy or its implementation, please contact us at info@aricent.com. If at any time you decide that we should no longer retain your personal information, please let us know by e-mailing us at the above address."
+            tools:ignore="HardcodedText" />
+        
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"            
+            android:text="This Privacy Policy was last updated Jan 28, 2015."
+            tools:ignore="HardcodedText" />
+        
+    </LinearLayout>
+    
+</ScrollView>
+</LinearLayout>

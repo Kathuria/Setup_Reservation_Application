@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/admin_backa"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="avi.aricent_ssr.MainActivity" >
+
+   <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="Aricent Logo"
+            android:src="@drawable/aricent_logo_detail"
+            tools:ignore="HardcodedText" 
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="164dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:text="SOM Setup Reservation"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editTextad1"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="abc.xyz@aricent.com"
+            android:text="\@aricent.com"
+            android:inputType="textEmailAddress"
+            tools:ignore="HardcodedText" >
+
+            <requestFocus />
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextad2"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editTextad1"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
+            tools:ignore="HardcodedText" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/editTextad3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageButtona1"
+            android:layout_marginTop="24dp"
+            android:layout_toRightOf="@+id/textView2"
+            android:textSize="15sp" />
+
+           <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editTextad3"
+            android:layout_alignBottom="@+id/editTextad3"
+            android:layout_alignLeft="@+id/editTextad2"
+            android:text="Attempts Left: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageButtona1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/editTextad2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/login"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageButtona2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/imageButtona1"
+            android:layout_below="@+id/editTextad3"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/frgtpwd"
+            tools:ignore="ContentDescription" />
+
+</RelativeLayout>

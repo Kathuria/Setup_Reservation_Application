@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/admin_back"
+    android:scrollbars="vertical" >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="240dp"
+      android:orientation="vertical" >
+
+      <TextView
+          android:id="@+id/textViewa1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:text="Allocate Rack"
+          android:textSize="24sp"
+          android:textStyle="bold"
+          android:typeface="serif"
+          tools:ignore="HardcodedText" />
+
+      <TextView
+          android:id="@+id/textViewa2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="Choose Rack"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+
+      <Spinner
+          android:id="@+id/SpinnerFeedbackTypeal1"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:entries="@array/racks" />
+
+      <requestFocus />
+
+      <TextView
+          android:id="@+id/maName"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="Manager"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+
+      <EditText
+          android:id="@+id/mName"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          tools:ignore="TextFields,LabelFor" />
+
+      <TextView
+          android:id="@+id/teName"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="Team"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText,TextFields,LabelFor" />
+
+      <EditText
+          android:id="@+id/tName"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:text="SOM"
+           tools:ignore="HardcodedText,TextFields,LabelFor"  />
+
+      <TextView
+          android:id="@+id/textViewa4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="From "
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+
+      <RelativeLayout
+          android:id="@+id/widget28"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:orientation="vertical" >
+
+
+          <TextView
+        
+           android:id="@+id/lblDateAndTimeal"
+            android:background="#D1D1D1"
+              android:layout_width="fill_parent"
+              android:layout_height="30dp"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+            
+              android:textStyle="bold" />
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:id="@+id/widget29"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:orientation="vertical" >
+
+          <Button
+              android:id="@+id/btnTimeal"
+              android:layout_width="139dp"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentTop="true"
+              android:text="Set the Time"
+              tools:ignore="HardcodedText" />
+
+          <Button
+              android:id="@+id/btnDateal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:text="Set the Date"
+              tools:ignore="HardcodedText" />
+
+      </RelativeLayout>
+
+      <TextView
+          android:id="@+id/textViewa5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="To"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+
+      <RelativeLayout
+          android:id="@+id/widget30"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:orientation="vertical" >
+
+          <TextView
+              android:id="@+id/lblDateAndTime1al"
+              android:layout_width="fill_parent"
+              android:layout_height="30dp"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:background="#D1D1D1"
+              android:textStyle="bold" />
+    </RelativeLayout>
+
+      
+ <RelativeLayout
+          android:id="@+id/widget31"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:orientation="vertical" >
+      
+      <Button
+          android:id="@+id/btnDate1al"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Set the Date"
+          tools:ignore="HardcodedText" />
+
+      <Button
+          android:id="@+id/btnTime1al"
+          android:layout_width="139dp"
+          android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:text="Set the Time"
+          tools:ignore="HardcodedText" />
+
+</RelativeLayout>
+ <RelativeLayout
+          android:id="@+id/widget32"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:orientation="vertical" 
+          android:layout_marginTop="30dp">
+
+      <Button
+          android:id="@+id/allocatebutton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginRight="29dp"
+          android:text="Submit"
+          tools:ignore="HardcodedText" />
+
+      <Button
+          android:id="@+id/reset_alrack"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginLeft="24dp"
+          android:text="Reset"
+          tools:ignore="HardcodedText" />
+
+</RelativeLayout>
+  </LinearLayout>
+
+    </ScrollView>

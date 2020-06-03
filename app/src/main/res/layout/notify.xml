@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/admin_back"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="48dp"
+        android:text="Notify Updates"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:lines="3"
+        android:hint="Write Here"
+        android:inputType="textMultiLine" 
+        tools:ignore="HardcodedText"/>
+
+   <Button
+       android:id="@+id/update"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignRight="@+id/cancel"
+       android:layout_below="@+id/start"
+       android:text="Update Notification"
+       tools:ignore="HardcodedText" />
+
+   <Button
+       android:id="@+id/cancel"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/update"
+       android:layout_centerHorizontal="true"
+       android:text="Cancel Notification"
+       tools:ignore="HardcodedText" />
+
+   <Button
+       android:id="@+id/start"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/editText1"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="40dp"
+       android:text="Start Notification"
+       tools:ignore="HardcodedText" />
+    
+</RelativeLayout>
